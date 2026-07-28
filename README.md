@@ -1,4 +1,4 @@
-<img width="945" height="492" alt="mat" src="https://github.com/user-attachments/assets/2a7e1d63-67af-431e-a4fe-88e0a520667a" /># Portfolio – Fatima Ezzahrae EL ANSARI
+# Portfolio – Fatima Ezzahrae EL ANSARI
 Ingénieure en Électronique Embarquée et Systèmes Intelligents
 Projets en systèmes automobiles (ADAS), robotique et conception de circuits intégrés —Cadence Virtuoso, MATLAB/Simulink
 
