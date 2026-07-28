@@ -1,4 +1,4 @@
-# Portfolio – Fatima Ezzahrae EL ANSARI
+# Portfolio – FATIMA EZZAHRAE EL ANSARI
 Ingénieure en Électronique Embarquée et Systèmes Intelligents
 Projets en systèmes automobiles (ADAS), robotique et conception de circuits intégrés —Cadence Virtuoso, MATLAB/Simulink
 
