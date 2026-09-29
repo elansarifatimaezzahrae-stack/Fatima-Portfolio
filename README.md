@@ -16,9 +16,31 @@ Modélisation et contrôle d’un quadrirotor avec régulateurs PID et simulatio
 ## 🚦 Système de Feux Tricolores – Stateflow
 Modélisation et validation d’un système de feux de circulation en temps réel via les tests MIL, SIL, PIL et HIL.
 
-## 🚗 Adaptive Cruise Control (ACC) – ADAS
-Conception et validation d’un système ACC en utilisant l’approche Model-Based Design, analyse de la logique
-d’état dans Stateflow et tests HIL sur carte Pixhawk 2.4.8
+## 🚗 Adaptive Cruise Control (ACC) – MATLAB/Simulink & Stateflow
+
+Dans le cadre d'un projet de modélisation des systèmes automobiles, j'ai réalisé la conception d'un système
+Adaptive Cruise Control (ACC) permettant d'adapter automatiquement la vitesse du véhicule en fonction de la
+présence d'un véhicule précédent et de la distance de sécurité.
+
+La logique de fonctionnement a été implémentée avec Stateflow à travers trois états principaux : **Cruise**,
+**Follow** et **Braking**.
+
+- **Cruise** : en l'absence de véhicule détecté, le système maintient la vitesse cible définie par le conducteur.
+- **Follow** : lorsqu'un véhicule est détecté, le système ajuste la vitesse afin de respecter la distance de sécurité.
+- **Braking** : lorsque la distance devient critique, le système déclenche un freinage d'urgence accompagné d'une alerte.
+
+Les transitions entre les différents états sont définies à partir de conditions telles que la détection d'un
+véhicule, la vitesse du véhicule ego et la distance mesurée. Cette approche permet de représenter clairement le
+comportement dynamique et décisionnel de l'ACC avant son intégration dans le modèle Simulink.
+
+Une fois la logique validée en simulation, un test **HIL (Hardware-in-the-Loop)** a été réalisé sur carte
+**Pixhawk 2.4.8**,  afin de vérifier le comportement du code généré directement sur la cible embarquée. L'état actif du système (Cruise / Follow / Braking) est restitué par la
+configuration d'une LED sur la carte.
+
+🛠️ Outils utilisés : MATLAB | Simulink | Stateflow | Model-Based Design | Test HIL (Pixhawk 2.4.8)
+
+![Machine à états ACC](ACC.png)
+![Machine à états ACC](ACC1.png)
 
 ## 🔌 Conception de circuits intégrés – Cadence Virtuoso 180nm
 Simulation de circuits au niveau transistor, incluant amplificateurs opérationnels, miroirs de courant et portes
