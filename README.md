@@ -39,8 +39,8 @@ configuration d'une LED sur la carte.
 
 🛠️ Outils utilisés : MATLAB | Simulink | Stateflow | Model-Based Design | Test HIL (Pixhawk 2.4.8)
 
-![Machine à états ACC](ACC.png)
-![Machine à états ACC](ACC1.png)
+<img width="945" height="496" alt="ACC" src="https://github.com/user-attachments/assets/b8d747ac-2615-480e-b244-c46c7ce8bbff" />
+<img width="945" height="492" alt="ACC1" src="https://github.com/user-attachments/assets/5a74d6d8-24f4-417c-b26b-16cd4bc7818d" />
 
 ## 🔌 Conception de circuits intégrés – Cadence Virtuoso 180nm
 Simulation de circuits au niveau transistor, incluant amplificateurs opérationnels, miroirs de courant et portes
